@@ -1,3 +1,3 @@
 [build]
-  command = "npm run build"
-  publish = "dist"
+  command = "unzip -o mister-aglianese.zip -d ./unzipped && cd unzipped && npm install && npm run build"
+  publish = "unzipped/dist"
